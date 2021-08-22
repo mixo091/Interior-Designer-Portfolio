@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    box-sizing:border-box;
+
+
+}
+
+.nav-bar{
+    position:fixed;
+    width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(7px);
+    box-shadow: 5px 5px 5px rgb(247, 155, 121);
+    z-index: 5;
+
+}
+
+
+.nav-bar .maximum-width {
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-btn{
+    color:black;
+    font-size: 23px;
+    cursor:pointer;
+    display: none;
+}
+
+
+.menu-btn:hover{
+    color:coral;
+}
+
+.maximum-width{
+    max-width: 1300px;
+    margin:auto;
+    padding:0 80px;
+}
+
+.nav-bar .mm{
+    font-size: 35px;
+    font: weight 800px;;
+    font-family: 'MonteCarlo',sans-serif ;
+    font-style: italic;
+
+}
+.nav-bar .mm .lastname{
+    color:coral;
+
+
+}
+
+.nav-bar .navigation li{
+    display: inline-block;
+    list-style: none;
+}
+.nav-bar .navigation li a{
+    color:black;
+    font-size: 18px;
+    margin-left: 10px;
+    transition:color 0.3s ease;
+}
+
+
+
+.nav-bar .navigation li a:hover{
+    color:coral;
+}
+
+.homePage{
+    display: flex;
+    height: 100vh;
+    background: url(images/homeSection.png) no-repeat center;
+    background-position: 40% 60% ;
+    border-radius: 16px;
+    font-family: 'MonteCarlo', sans-serif ;
+}
+
+
+.homePage .homePage-content{
+    box-shadow: 5px 5px 5px rgb(247, 155, 121);
+    border-radius: 64px;
+    height:200px;
+    width:370px;
+
+
+}
+
+.homePage .maximum-width{
+    margin-right:10px;
+}
+
+
+.homePage .homePage-content .txt1{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 60px;
+
+
+
+}
+
+
+.homePage .homePage-content .txt2{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 60px;
+
+}
+
+.homePage .homePage-content .txt3{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 60px;
+
+
+
+}
+
+.homePage .homePage-content .txt3 .job {
+    font-weight: 700;
+    color:coral;
+}
+
+
+/* About me Section Styling */
+.about{
+    padding:100px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 120vh;
+    background-image: linear-gradient( rgba(250, 250, 250, 0),rgba(236, 142, 107,2));
+
+}
+
+.about .maximum-width .aboutme{
+    text-align: center;
+    font-family: 'MonteCarlo', sans-serif ;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-bottom:20px;
+}
+.about .maximum-width  .about-content .left img{
+    height:300px;
+    width:300px;
+    object-fit: cover;
+}
+
+.about .maximum-width  .about-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.about .maximum-width  .about-content .left{
+    width: 45%;
+}
+
+.about .maximum-width  .about-content .right{
+    width: 55%;
+}
+
+
+
+.about .maximum-width  .about-content .right .text{
+    font-size:25px;
+    font-weight:500px;
+    font-family: 'MonteCarlo', sans-serif ;
+    margin-bottom:10px;
+}
+
+.about .maximum-width  .about-content .right p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: justify;
+}
+
+
+.about .maximum-width  .about-content .part{
+    width:50%;
+}
+
+
+/*Skills and Services section */
+.services-skills{
+    padding:220px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 120vh;
+}
+
+.services-skills .maximum-width .title{
+    text-align: center;
+    font-family: 'MonteCarlo', sans-serif ;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    padding-bottom:20px;
+}
+
+.services-skills .maximum-width  .skills-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.services-skills .maximum-width  .skills-content .column{
+    width:calc(50% - 30px);
+}
+
+.services-skills .maximum-width  .skills-content .right .skills{
+  margin-bottom: 15px;
+
+}
+
+.services-skills .maximum-width  .skills-content .right .porgramm{
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.services-skills .maximum-width  .skills-content .right span{
+  font-weight: 500;
+  font-size: 22px;
+  font-style: italic;
+  margin-left: 40px;
+  font-family:'MonteCarlo', sans-serif ;
+  color: #333;
+  font-weight: bold;
+}
+
+.services-skills .maximum-width  .skills-content .right .seperator{
+    height: 2px;
+    border-radius: 100%;
+    background-color:black;
+    width: 6px;
+    display:none;
+}
+
+.services-skills .maximum-width  .skills-content .left{
+ 
+  border-radius: 2px;
+  font-family:'MonteCarlo', sans-serif ;
+  font-size: 25px;
+  padding-left: 15px 15px;
+  margin-bottom: 70px;
+  box-shadow: 2px 2px 2px coral; 
+}
+
+
+.services-skills .maximum-width  .skills-content .right{
+  border-radius: 5px;
+
+  
+}
+/* Projects Section */
+
+
+.projects{
+    padding:100px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 120vh;
+    background-image: linear-gradient(rgba(236, 142, 107,5), rgba(255, 255, 255, 0));
+
+}
+
+.projects .maximum-width .mywork{
+    text-align: center;
+    font-family: 'MonteCarlo', sans-serif ;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom:20px;
+}
+
+
+
+
+
+.contact{
+  padding:220px 0;
+  margin-top: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 220vh; 
+  font-family: 'Verdana',sans-serif;
+  box-sizing: border-box;
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:  linear-gradient( rgba(250, 250, 250, 0), rgba(136,136,136,2));
+}
+
+.contact .content{
+  max-width: 800px;
+  text-align:center;
+}
+
+.contact .content .title{
+  text-align: center;
+  font-family: 'MonteCarlo', sans-serif ;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-bottom:20px;
+}
+
+
+.contact .content p{
+  font-weight: 500;
+}
+
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container .containerInfo{
+  width:50%;
+  display:flex;
+  flex-direction: column;
+}
+
+
+.container .containerInfo .box{
+  position:relative;
+  padding: 20px 0;
+  display:flex;
+}
+
+
+.container .containerInfo .box .icon{
+
+  width: 60px;
+  height:60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: coral;
+  border-radius:100%;
+}
+
+
+.container .containerInfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .containerInfo .box .text h3{
+    font-size:25px;
+    font-weight: 470px;
+    font-family: 'MonteCarlo', sans-serif ;
+    color:white;
+}
+
+
+.contactForm{
+  width:40%;
+  padding:40px;
+  border-radius: 2%;
+  background-color: white;
+
+}
+
+.contactForm h2{
+  font-size:30px;
+  font-weight: 470px;
+  font-family: 'MonteCarlo', sans-serif ;
+  color:black;
+
+}
+
+.contactForm.inputBox{
+  position:relative;
+  width:100%;
+  margin-top:10px;
+}
+
+
+.contactForm .inputBox input
+{
+
+  width:100%;
+  padding:5px 0;
+  font-size: 16px;
+  margin:10px 0;
+  border:none;
+  border-bottom: 2px solid #333;
+  outline:none;
+}
+
+
+.contactForm .inputBox textarea{
+  resize: none;
+  width:100%;
+  padding:5px 0;
+  font-size: 16px;
+  border:none;
+  margin:10px 0;
+  border-bottom: 2px solid #333;
+  outline:none;
+}
+
+
+.contactForm .inputBox span{
+  font-size:23px;
+  font-family: 'MonteCarlo', sans-serif ;
+  font-weight: 500px;
+}
+
+
+.contactForm  .inputBox input[type="submit"] {
+  width:100px;
+  background-color: coral;
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
+  padding:10px;
+  font-size: 18px;
+}
+
+@media (max-width:991px){
+  .contact{
+    padding:50px;
+  }
+
+  .container{
+    flex-direction: column;
+  }
+
+  .container .contactInfo{
+    margin-bottom: 40px;
+
+  }
+
+  .container .contactInfo , .contactForm{
+    width:100%;
+  }
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:1100px){
+    .maximum-width{
+        padding:0 50px;
+    }
+
+
+
+    .menu-btn{
+        display:block;
+        z-index: 999;
+
+    }
+     .mm{
+        z-index: 999;
+        direction: block;
+
+    }
+    .nav-bar .navigation{
+        padding-top: 60px;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        color:white;
+        top:0;
+        left:-100%;
+        background: white;
+        text-align: center;
+        transition:all 0.3s ease;
+    }
+
+    .homePage{
+        background-position: 50% 50% ;
+    }
+
+    .homePage .homePage-content{
+        display:none;
+    }
+
+    .nav-bar .navigation.active{
+
+      left:-80px; 
+      background-color: rgba(32, 32, 32, 0.8);
+      backdrop-filter: blur(10px);
+      font-family: 'MonteCarlo', sans-serif ;
+      box-shadow: 5px 5px 5px rgb(247, 155, 121);
+      border-radius: 5px;
+      line-height: 1;
+      font-weight: bolder;
+     -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      font-size: 30px;
+    }
+
+    .nav-bar .navigation.active li a{
+      color:rgb(255, 255, 255);
+      font-size: 30px;
+    }
+
+
+    .nav-bar{
+        position:fixed;
+        width:100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 0;
+        box-shadow: 5px 5px 5px rgb(247, 155, 121);
+        backdrop-filter: blur(300px);
+        background-color: rgba(255, 255, 255, 1);
+
+    }
+    .nav-bar .navigation li {
+        display:block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nav-bar .navigation li a{
+        display:inline-block;
+        margin:20px 0;
+        font-size: 25px;
+    }
+
+
+}
+
+.seperator{
+  height : 3px;
+  color:coral;
+  width: 100%;
+}
+/*Project Slides Styling*/
+
+.mySlides {
+    display: none
+}
+.img-slide {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.cap-text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+.dot{
+ height: 10px;
+  width: 10px;
+}
+}
+@media only screen and (max-width: 500px) {
+  .prev, .next,.text {font-size: 14px}
+}
+
+
+/* 900px or less display */
+@media (max-width:900px){
+
+    .about{
+        height: 180vh;
+    }
+    .about .maximum-width  .about-content .part{
+        width:100%;
+    }
+    .about .maximum-width  .about-content .left img{
+        height:250px;
+        width:250px;
+    }
+
+    .about .maximum-width  .about-content .left {
+        display:flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .maximum-width  .about-content .right{
+        flex:100%;
+    }
+
+}
+
+
+@media (max-width:700px){
+
+  .services-skills .maximum-width  .skills-content .column{
+    width:100%;
+}
+
+.contact{
+  margin-top: 450px;
+}
+
+}
+
+
+@media (max-width:400px){
+  .contact{
+    margin-top: 750px;
+  }
+
+}
+
+.footer{
+  padding: 50px 23px;
+  background: rgb(31, 31, 31);
+  color:coral;
+  font-weight: lighter;
+  font-size: 14px;
+  border-radius: 2px;
+  font-family: 'MonteCarlo', sans-serif ;
+}
+
+
+.button {
+  display: block;
+  width: 120px;
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color:white;
+  background-color: rgba(255, 255, 255, 0.15);
+  font-size: 25px;
+  font-family: 'MonteCarlo', sans-serif ;
+
+  box-shadow: rgba(0,0,0,0.8);
+}
