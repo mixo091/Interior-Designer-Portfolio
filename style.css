@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200&family=Ubuntu:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');
 
 *{
     margin:0;
@@ -188,7 +189,7 @@
 }
 
 .about .maximum-width  .about-content .right p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: 'Titillium Web', sans-serif;
     text-align: justify;
 }
 
@@ -200,7 +201,7 @@
 
 /*Skills and Services section */
 .services-skills{
-    padding:220px 0;
+    padding:180px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 120vh;
 }
@@ -241,12 +242,12 @@
 
 .services-skills .maximum-width  .skills-content .right span{
   font-weight: 500;
-  font-size: 22px;
+  font-size: 26px;
   font-style: italic;
   margin-left: 40px;
-  font-family:'MonteCarlo', sans-serif ;
+  font-family: 'Titillium Web', sans-serif;
   color: #333;
-  font-weight: bold;
+  
 }
 
 .services-skills .maximum-width  .skills-content .right .seperator{
@@ -261,7 +262,7 @@
  
   border-radius: 2px;
   font-family:'MonteCarlo', sans-serif ;
-  font-size: 25px;
+  font-size: 30px;
   padding-left: 15px 15px;
   margin-bottom: 70px;
   box-shadow: 2px 2px 2px coral; 
@@ -279,7 +280,7 @@
 .projects{
     padding:100px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 120vh;
+    height: 100vh;
     background-image: linear-gradient(rgba(236, 142, 107,5), rgba(255, 255, 255, 0));
 
 }
@@ -291,7 +292,8 @@
     font-weight: 500;
     margin-bottom: 50px;
     margin-top: 50px;
-    padding-bottom:20px;
+    padding-bottom:20px
+
 }
 
 
@@ -331,6 +333,7 @@
 
 .contact .content p{
   font-weight: 500;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 
@@ -363,7 +366,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: coral;
+  background-color:coral;
   border-radius:100%;
 }
 
@@ -708,7 +711,7 @@
   .services-skills .maximum-width  .skills-content .column{
     width:100%;
 }
-
+ls
 .contact{
   margin-top: 450px;
 }
@@ -718,8 +721,22 @@
 
 @media (max-width:400px){
   .contact{
-    margin-top: 750px;
+    margin-top: 600px;
   }
+
+  .container .containerInfo .box .icon{
+
+    width: 16px;
+    height:16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(250, 246, 244);
+    background-color:inherit;
+    border-radius:70%;
+  }
+
+
 
 }
 
@@ -747,4 +764,33 @@
   font-family: 'MonteCarlo', sans-serif ;
 
   box-shadow: rgba(0,0,0,0.8);
+}
+
+
+
+@media (max-width:650px){
+  .homePage{
+    background-size : 300px  330px ;
+  }
+
+  .homePage {
+    height: 80vh;
+  }
+
+  .services-skills{
+    height: 150vh;
+  }
+
+  .container .containerInfo .box .icon{
+
+    width: 25px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    color:coral;
+    border-radius:100%;
+  }
+
 }
